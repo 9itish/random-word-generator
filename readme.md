@@ -14,7 +14,7 @@ You can get a random word by making a GET request to `get.php`.
 
 In my case, the JSON response was:
 
-```
+```json
 {
   "words": [
     "distrait"
@@ -32,7 +32,7 @@ get.php?count=10
 
 I got these 10 words back:
 
-```
+```json
 {
   "words": [
     "nodosous",
@@ -60,7 +60,7 @@ get.php?category=verb
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "chant"
@@ -80,7 +80,7 @@ The `length` parameter tales precedence over `min-length` and `max-length`.
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "incommensurability"
@@ -98,7 +98,7 @@ count=10&min-length=15
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "hyperoxymuriate",
@@ -125,7 +125,7 @@ count=10&max-length=5
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "gnaw",
@@ -152,7 +152,7 @@ get.php?start=app
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "appeasable"
@@ -170,7 +170,7 @@ get.php?end=ate
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "particulate"
@@ -188,7 +188,7 @@ include=der&count=10
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "underclothes",
@@ -213,7 +213,7 @@ include=der,t&count=5
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "dittander",
@@ -235,7 +235,7 @@ exclude=a,e,i&count=5
 
 Here is the response I got:
 
-```
+```json
 {
   "words": [
     "outcrop",
